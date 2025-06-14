@@ -1,0 +1,243 @@
+*{
+      font-family: "Inter", sans-serif;
+}
+:root{
+    --Bg-Black:#0B0D17;
+    --Btn-Green:#4CAF4F;
+    --Bg-silver:#F5F7FA;
+    --Gray-text:#717171;
+    --Dark-gary:#4D4D4D;
+    --Dark-green:#1B5E1F;
+    --light-text:#89939E;
+    --white:#FFFFFF;
+    --Black:#000000;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/*! header start  */
+header{
+    padding-block: 11px;
+}
+.nav-links a{
+    color: var(--Gray-text);
+    transition: 0.1s linear;
+    font-weight: 600;
+}
+.nav-links li a:hover{
+        color: var(--Dark-green) !important;
+}
+.btn-reusable{
+    padding: 10px 22px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: var(--Btn-Green);
+    transition: 0.2s linear;
+}
+.btn-reusable:hover{
+    background-color: var(--Dark-green);
+}
+.nav-btn i{
+    margin-left: 3px;
+    font-size: 15px;
+}
+.menu-icon i{
+    font-size: 18px;
+}
+/*! header end */
+
+/*! main start  */
+.main-section{
+    height: calc(100vh - 68px);
+    display: flex;
+    align-items: center;
+    background-color: var(--Bg-silver);
+}
+.main-content {
+    h1{
+        font-size: 65px;
+        font-weight: 600;
+        span{
+            color: var(--Btn-Green);
+        }
+    }
+    p{
+        color: var(--Gray-text);
+        font-size: 14px;
+        margin-top: 11px;
+        margin-bottom: 22px;
+    }
+}
+/*! main end  */
+
+/*! client section start*/
+.client-section{
+    padding-block: 28px;
+h3{
+    font-weight: 700;
+    color: var(--Dark-gary);
+}
+p{
+    color: var(--Gray-text);
+    font-size: 15px;
+}
+}
+.clients-images{
+    text-align: center;
+    
+}
+/*! client section end*/
+    
+/*! community heading start  */
+.community-heading{
+    padding: 27px 0 11px 0;
+    h2{
+        color: var(--Dark-gary);
+    }
+    p{
+        color: var(--Gray-text);
+        font-size: 15px;
+    }
+}
+/*! community heading end  */
+
+/*! community cards start*/
+.community-card{
+    margin-bottom: 50px;
+}
+.cards{
+    padding: 22px 10px;
+    border-radius: 6px;
+    text-align: center;
+    transition: all 0.1s linear;
+    box-shadow: 0 3.39px 5.78px #ABBED1;
+    h3{
+        font-weight: 700;
+        color: var(--Dark-gary);
+        margin-top: 14px;
+        margin-bottom: 7px;
+    }
+    p{
+        color: var(--Gray-text);
+    }
+}
+/*! community cards end*/
+
+/*! pixelGrade start  */
+.pixelGrade-Section{
+    margin-bottom: 50px;
+}
+.pixelGrade-content{
+    h2{
+        color: var(--Dark-gary);
+        font-size: 35px;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+    }
+    p{
+        color: var(--Gray-text);
+        text-align: justify;
+        margin-top: 11px;
+        margin-bottom: 32px;
+    }
+}
+/*! pixelGrade end  */
+
+/*! helping section start  */
+.helping-section{
+    padding-block: 45px;
+}
+.helping-content{
+    h3{
+        span{
+            color: var(--Btn-Green);
+        }
+    }
+    p{
+        color: var(--Gray-text);
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    h4{
+        margin-bottom: 0;
+        font-weight: bold;
+        color: var(--Dark-gary);
+    }
+    span{
+        font-size: 14px;
+        color: var(--Gray-text);
+    }
+}
+.helping-section{
+    background-color: var(--Bg-silver);
+}
+/*! helping section end  */
+
+
+/*! lebro section start */
+.lebro-section{
+    background-color: var(--Bg-silver);
+    padding: 25px 0;
+}
+.lebro-content{
+    text-align: center;
+    h2{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    button {
+        margin-top: 22px;
+        i{
+             margin-left: 3px;
+             font-size: 15px;
+        }
+    }
+}
+/*! lebro section end */
+
+/*! footer section start */
+.footer-section{
+    background-color: var(--Bg-Black);
+    padding: 45px 0;
+    color: white;
+}
+.footer-para {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    p{
+        margin-bottom: 0;
+        color: var(--Bg-silver);
+        font-size: 14px;
+    }
+}
+.company-links{
+    a{
+        color: var(--Bg-silver);
+    }
+    ul a{
+        line-height: 1.75;
+    }
+}
+.email-input input{
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255,0.2);    
+    font-size: 12px;
+    padding: 6.26px 0 7.28px 8.35px;
+}
+::placeholder{
+    color: rgba(255, 255, 255,0.6);
+}
+/*! footer section end */

@@ -1,0 +1,219 @@
+@media screen and (min-width:1400px) {
+
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+
+    /*! community start */
+    .cards {
+        h3 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    /*! community end */
+
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    /*! main start  */
+    .main-content {
+        h1 {
+            font-size: 50px;
+            font-weight: 600;
+
+            span {
+                color: var(--Btn-Green);
+            }
+        }
+    }
+
+    /*! main end  */
+
+    /*! community start */
+    .cards {
+        h3 {
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    /*! community end */
+
+    
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    /*! main start  */
+    .main-content {
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+
+            span {
+                color: var(--Btn-Green);
+            }
+        }
+    }
+
+    .main-section {
+        height: calc(100vh - 48px);
+    }
+
+    /*! main end  */
+
+    /*! email section  start*/
+    .order-email{
+        order: 2;
+    }
+    .order-company{
+        order: 4;
+    }
+    .order-support{
+        order: 3;
+    }
+    /*! email section  end*/
+
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+
+    /*! main start  */
+    .main-content {
+        h1 {
+            font-size: 44px;
+            margin-top: 20px;
+        }
+    }
+
+    .main-section {
+        height: calc(100vh - 47px);
+    }
+
+    .main-img {
+        text-align: center;
+    }
+
+    /*! main end  */
+
+
+    /*! email section  start*/
+    .order-email{
+        order: 2;
+    }
+    .order-company{
+        order: 4;
+    }
+    .order-support{
+        order: 3;
+    }
+    /*! email section  end*/
+}
+
+@media screen and (min-width:0px) and (max-width:575px) {
+
+    /*! main start  */
+    .main-content {
+        h1 {
+            font-size: 35px;
+            margin-top: 20px;
+        }
+    }
+
+    .main-section {
+        height: calc(100vh - 47px);
+    }
+
+    .main-img {
+        text-align: center;
+    }
+
+    /*! main end  */
+
+    /*! pixelGrade Section start */
+    .pixelGrade-content {
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+
+    /*! pixelGrade Section end */
+
+    /*! helping section start */
+    .icon {
+        text-align: center;
+        justify-content: center;
+    }
+
+    /*! helping section end */
+
+
+    /*! lebro section start */
+    .lebro-content{
+        h2{
+            font-size: 32px;
+        }
+    }
+    /*! lebro section end */
+
+    /*! email section  start*/
+    .order-email{
+        order: 2;
+    }
+    .order-company{
+        order: 4;
+    }
+    .order-support{
+        order: 3;
+    }
+    /*! email section  end*/
+
+    /*! footer para  start*/
+    .footer-para {
+        margin: 20px 0;
+    }
+    /*! footer para end */
+}
+
+@media screen and (max-width:380px) {
+
+    /*! main start  */
+    .main-content {
+        h1 {
+            font-size: 26px;
+            margin-top: 20px;
+        }
+    }
+
+    /*! main end  */
+
+    /*! community start*/
+    .community-heading h2 {
+        font-size: 20px;
+    }
+
+    /*! community end*/
+
+
+    /*! lebro section start */
+    .lebro-content{
+        h2{
+            font-size: 28px;
+        }
+    }
+    /*! lebro section end */
+    
+}
